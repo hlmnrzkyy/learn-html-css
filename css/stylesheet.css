@@ -1,0 +1,187 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:hover, a:active, a:visited{
+  color: white;
+}
+
+.header-wrapper {
+  width: 100%;
+  float: left;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h1 {
+  font-size: 36px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right li {
+  font-size: 24px;
+  float: left;
+  padding-top: 18px;
+  padding-left: 30px;
+}
+
+.title-wrapper {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title-wrapper h1 {
+  font-size: 96px;
+}
+
+.title-wrapper p {
+  font-size: 48px;
+}
+
+.title-wrapper span {
+  color: yellow;
+}
+
+.title-image {
+  height: 400px;
+}
+
+.summary-wrapper {
+  float: left;
+  width: 100%;
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.summary h1 {
+  font-size: 48px;
+}
+
+.summary p {
+  font-size: 18px;
+}
+
+.examples-wrapper {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.examples {
+  float: left;
+}
+
+.example {
+  float: left;
+  width: 24.4%;
+  margin-left: calc(25%/6);
+  margin-right: calc(25%/6);
+  border: 3px solid gray;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.example-image {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.message-wrapper {
+  float: left;
+  width: 100%;  
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+}
+
+input, textarea {
+  width: 70%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 24px;
+  color: gray;
+}
+
+.btn {
+  padding: 12px 96px;
+  background-color: yellow;
+  font-size: 24px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.footer-wrapper {
+  float: left; 
+  width: 100%;
+  background-color: grey;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-left h1 {
+  font-size: 48px;
+  line-height: 0px;
+}
+
+.footer-right {
+  float: right;
+  text-align: right;
+  margin-top: 0px;
+}
+
+.footer-right li {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+
+
