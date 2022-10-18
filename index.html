@@ -40,9 +40,47 @@
           </ul> 
         </div>
         <div class="item-menu">
-          <a href="#"><span class="fa fa-bars"></span></a>
+          <a id="openMenu" href="#">
+            <span class="fa fa-bars"></span>
+          </a>
+
+          <!-- -->
+          <script>
+            var x = document.getElementById("openMenu");
+            x.addEventListener("click", showMenu);
+            function showMenu() {
+              if (document.getElementById("menu").style = "display: none") {
+                document.getElementById("menu").style = "display: block";
+              } 
+            }
+            </script>
+          <!-- -->
+          
+        </div>
+        <div class="menu" id="menu" style="display: none;">
+          <a id="hideMenu" href="#">[x]</a>
+          <br>
+          <a href="#">Tentang Saya</a>
+          <br>
+          <a href="#">Proyek Contoh</a>
+          <br>
+          <a href="#">Hubungi Saya</a>
+
+          <!-- -->
+          <script>
+            var x = document.getElementById("hideMenu");
+            x.addEventListener("click", hideMenu);
+            function hideMenu() {
+              if (document.getElementById("menu").style = "display: block") {
+                document.getElementById("menu").style = "display: none";
+              } 
+            }
+            </script>
+          <!-- -->
+
         </div>
       </div>
+
       <div class="title-wrapper">
         <h1>NINJA KEN<span>.</span></h1>
         <p>MY PORTOFOLIO<p>
@@ -95,7 +133,17 @@ Mauris eu viverra tortor. Morbi urna purus, faucibus eu dignissim at, varius nec
           <textarea Value="Message (diperlukan)">Message (diperlukan)</textarea>
           <br>
           <br>
-          <button class="message-button">Kirim</button>
+          <button class="message-button" onclick="changeButton(this)">Kirim</button>
+
+          <!-- -->
+          <script>
+            function changeButton(obj) {
+              obj.style.color = "gray";
+              obj.innerHTML = "Terkirim"
+            }
+          </script>
+          <!-- -->
+
         </div>
       </div>
 

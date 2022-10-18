@@ -59,6 +59,18 @@ a:link, a:hover, a:active, a:visited{
   padding-left: 30px;
 }
 
+.menu {
+  float: right;
+  width: 100%;
+  text-align: right;
+  padding-bottom: 18px;
+}
+
+.menu a {
+  font-size: 18px;
+  line-height: 36px;
+}
+
 .title-wrapper {
   float: left;
   width: 100%;
@@ -125,7 +137,13 @@ a:link, a:hover, a:active, a:visited{
   margin-right: calc(25%/6);
   background-color: lightgray;
   padding-top: 30px;
-  padding-bottom: 30px
+  padding-bottom: 30px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.example:hover {
+  opacity: 1;
 }
 
 .example-image {
